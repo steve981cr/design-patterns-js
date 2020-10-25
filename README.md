@@ -1,4 +1,9 @@
-
+<h1>H1 tag</h1>
+<pre>
+Some pre stuff
+  different code 
+    lines here
+</pre>
 
 ## Testing
 Each pattern has a test file associated with it.
