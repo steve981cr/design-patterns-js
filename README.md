@@ -1,14 +1,11 @@
-<h1>H1 tag</h1>
-<pre>
-Some pre stuff
-  different code 
-    lines here
-</pre>
+# JavaScript Design Pattern Examples
+These examples correspond to the CheatSheet found at  
+https://www.learnbycheating.com/
 
 ## Testing
 Each pattern has a test file associated with it.
 Using the Jest test framework.
-Jest looks for a <i>\__tests__</i> folder for test files.
+
 ### Install Jest
 To use Jest either install it globally:  
 ```npm install -g jest``` or ```yarn global add jest``` 
@@ -20,5 +17,6 @@ From the js-patterns directory create a project:
 Then install just as a development dependency  
 ```npm install jest -D``` or ```yarn add jest -D```  
 
+### Run the tests
 To run the tests from the CLI:  
 ```jest```
