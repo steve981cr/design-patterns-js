@@ -1,0 +1,20 @@
+{
+  "name": "design-patterns-js",
+  "version": "1.0.0",
+  "description": "JavaScript Design Pattern Examples. Corresponds with the CheatSheet found at   https://www.learnbycheating.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steve981cr/design-patterns-js.git"
+  },
+  "keywords": [],
+  "author": "Steve Carey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steve981cr/design-patterns-js/issues"
+  },
+  "homepage": "https://github.com/steve981cr/design-patterns-js#readme"
+}
