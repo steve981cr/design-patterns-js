@@ -1,4 +1,5 @@
-const { UpsAdapter } = require('../src/adapter.js');
+const { UpsAdapter } = require('../src/adapter');
+// import { UpsAdapter } from '../src/adapter';
 
 describe('Adapter Design Pattern Tests', function() {
   test('should return', function() {

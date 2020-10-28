@@ -7,8 +7,10 @@ Each pattern has a test file associated with it in the \__tests__ folder.
 Using the Jest test framework.
 
 ### Install Jest
-Install jest as a development dependency  
-```npm install jest -D``` or ```yarn add jest -D```  
+Install jest as a development dependency
+```npm install jest -D``` or ```yarn add jest -D```   
+Or as a global dependency  
+```npm install jest -g``` or ```yarn global add jest```   
 
 ### Run the tests
 To run the tests from the CLI:  

@@ -1,12 +1,14 @@
+// Import core Node.js modules
+// import path from 'path';
+// import fs from 'fs';
+// commonjs syntax:
 const path = require('path');
 const fs = require('fs');
 
-// Import native Node.js modules
-// import path from 'path';
-// import fs from 'fs';
-
 // Use path module to set the path for the storage file.
-const storageFile = path.join(__dirname, 'storage.json');
+const storageFile = path.join(path.dirname('storage.json'), 'storage.json');
+// Note: in commonjs you can use the __dirname variable, but not in modules
+  // const storageFile = path.join(__dirname, 'storage.json'); 
 // Use fs module to overwrite the storage file with an empty object.
 fs.writeFileSync(storageFile, '{}');
 // Read the storage file synchronously. Parse it from JSON format.
@@ -71,5 +73,7 @@ class Store {
 }
 // const store = new Store();
 
+// ES6 Syntax:
 // export default store;
+// commonjs syntax:
 module.exports = store;

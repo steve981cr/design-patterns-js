@@ -1,5 +1,6 @@
-const store = require('./store.js');
 // import store from './store.js';
+// commonjs syntax:
+const store = require('./store.js');
 
 // Use store module methods to write/read storage items.
 store.set({id: 1, todo: 'Do this.', status: 'open'});

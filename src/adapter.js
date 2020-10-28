@@ -94,4 +94,5 @@ console.log(upsShipment.ship());
 
 // Export for testing
 module.exports = { UpsAdapter };
+// export { UpsAdapter };
 })();

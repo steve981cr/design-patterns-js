@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/steve981cr/design-patterns-js/issues"
   },
-  "homepage": "https://github.com/steve981cr/design-patterns-js#readme"
+  "homepage": "https://github.com/steve981cr/design-patterns-js#readme",
+  "devDependencies": {}
 }

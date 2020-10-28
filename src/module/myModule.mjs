@@ -10,5 +10,6 @@ class PublicClass {
   }
 }
 // Export components you want to make directly available
-// export { publicFunc, modClass};
-module.exports = { publicFunc, PublicClass };
+export { publicFunc, PublicClass };
+// commonjs syntax:
+// module.exports = { publicFunc, PublicClass };
